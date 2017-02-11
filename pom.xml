@@ -115,6 +115,15 @@
 
 	</build>
 <distributionManagement>
-
+	<repository>
+		<id>releases</id>
+		<name>releases</name>
+		<url></url>
+	</repository>
+	<snapshotRepository>
+		<id>snapshots</id>
+		<name>snapshots</name>
+		<url></url>
+	</snapshotRepository>
 </distributionManagement>
 </project>
